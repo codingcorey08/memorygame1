@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coreys memory matching game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Memory Matching Game</h1>
+        <p>Current Version: <span id="current-version">1.0.0</span></p>
+    </header>
+
+    <!-- Update Notification Section -->
+    <div id="update-notification" class="update-notification">
+        <h2>New Update Available!</h2>
+        <p id="update-message"></p>
+        <a id="update-link" href="#" target="_blank">Click here to update</a>
+        <button id="dismiss-update">Dismiss</button>
+    </div>
+
+    <!-- Game Board -->
+    <main>
+        <div id="board" class="board"></div>
+        <button id="restart-btn">Restart Game</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
