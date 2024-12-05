@@ -1,0 +1,15 @@
+{
+    "version": "1.1.0",
+    "updateAvailable": true,
+    "changes": [
+      "Improved performance for game logic.",
+      "Added new card designs.",
+      "Fixed minor bugs."
+    ],
+    "updateURL": "https://example.com/update",
+    "promotion": {
+      "message": "50% off premium features!",
+      "validUntil": "2024-12-31",
+      "promoCode": "SAVE50"
+    }
+  }

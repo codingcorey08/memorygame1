@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+}
+
+.update-notification {
+    display: none; /* Hidden by default */
+    background-color: #f39c12;
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.update-notification h2 {
+    margin: 0 0 10px 0;
+}
+
+.update-notification p {
+    margin: 0 0 10px 0;
+}
+
+.update-notification ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.update-notification a {
+    color: white;
+    text-decoration: underline;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.update-notification button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #d35400;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.update-notification button:hover {
+    background-color: #c0392b;
+}
+
+/* Promotion Notification Styles */
+.promotion-notification {
+    display: none; /* Hidden by default */
+    background-color: #8e44ad;
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.promotion-notification h2 {
+    margin: 0 0 10px 0;
+}
+
+.promotion-notification p {
+    margin: 0 0 10px 0;
+}
+
+/* Game Board Styles */
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 420px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.card.flipped {
+    background-color: #e67e22;
+    transform: rotateY(180deg);
+}
+
+.card.matched {
+    background-color: #2ecc71;
+    cursor: default;
+    pointer-events: none;
+}
+
+button#restart-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button#restart-btn:hover {
+    background-color: #c0392b;
+}
